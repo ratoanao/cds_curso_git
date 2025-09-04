@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st 
 
 def load_data():
-    return pd.read_csv('curso_git/projeto/data/processed/bikes_completed.csv')
+    return pd.read_csv('curso_git/projeto/data/bikes_completed.csv')
 
 def main():
     df = load_data()
