@@ -7,6 +7,5 @@ def main():
     df_row = load_data()
     st.dataframe(df_row)
 
-
 if __name__ == '__main__':
     main()
